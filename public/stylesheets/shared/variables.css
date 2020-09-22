@@ -1,0 +1,22 @@
+:root {
+    --base-hue: 280;
+    --colour-danger-hue: calc(var(--base-hue) - 180);
+    --colour-bg-dark: hsl(var(--base-hue), 100%, 8%);
+    --colour-bg-light: hsl(var(--base-hue), 100%, 16%);
+    --colour-text:  hsl(var(--base-hue), 100%, 87%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.inner-container {
+    margin: 0 2rem;
+}
+
+.page-header {
+    font-size: 2rem;
+    font-weight: 500;
+}
