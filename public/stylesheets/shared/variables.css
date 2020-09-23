@@ -1,6 +1,5 @@
 :root {
     --base-hue: 280;
-    --colour-danger-hue: calc(var(--base-hue) - 180);
     --colour-bg-dark: hsl(var(--base-hue), 100%, 8%);
     --colour-bg-light: hsl(var(--base-hue), 100%, 16%);
     --colour-text:  hsl(var(--base-hue), 100%, 87%);

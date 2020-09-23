@@ -4,8 +4,8 @@
     --colour-btn-primary-bg-dark: hsl(var(--base-hue), 100%, 70%);
     --colour-btn-primary: hsl(var(--base-hue), 100%, 20%);
     --colour-btn-primary-dark: hsl(var(--base-hue), 100%, 10%);
-    --colour-btn-danger-bg: hsl(var(--colour-danger-hue), 100%, 83%);
-    --colour-btn-danger-bg-dark: hsl(var(--colour-danger-hue), 100%, 73%);
+    --colour-btn-danger-bg: hsl(10, 100%, 75%);
+    --colour-btn-danger-bg-dark: hsl(0, 100%, 65%);
     --colour-btn-danger:  black;
     --colour-btn-danger-dark:  black;
 }

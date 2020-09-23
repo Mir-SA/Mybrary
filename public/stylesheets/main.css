@@ -3,6 +3,8 @@
 @import 'shared/header.css';
 @import 'shared/buttons.css';
 @import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/books.css';
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -16,4 +18,8 @@
 
 body {
     background: linear-gradient(to right, var(--colour-bg-dark), var(--colour-bg-light));
+}
+
+.error-msg {
+    color: hsl(10, 100%, 60%);
 }
