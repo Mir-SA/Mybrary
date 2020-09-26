@@ -4,6 +4,14 @@
     --book-cover-aspect-ratio: 0.75;
 }
 
+@media (max-width: 580px) {
+    :root {
+        --book-cover-width: 120px;
+        --book-cover-width-large: 195px;
+        --book-cover-aspect-ratio: 0.75;
+    }
+}
+
 .book-cover {
     width: var(--book-cover-width);
     height: calc(var(--book-cover-width)/

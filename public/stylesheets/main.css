@@ -23,3 +23,9 @@ body {
 .error-msg {
     color: hsl(10, 100%, 60%);
 }
+
+@media (max-width: 580px) {
+    :root {
+        font-size: 12px;
+    }
+}
